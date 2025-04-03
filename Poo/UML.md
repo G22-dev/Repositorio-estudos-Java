@@ -24,7 +24,7 @@ classDiagram
     }
 
     class NavegadorInternet {
-        
+
         + exibirPagina(Stringurl)
         + adicionarNovaAba()
         + atualizarPagina()
@@ -32,7 +32,7 @@ classDiagram
 
     class IPhone{}
 
-    iPhone --> ReprodutorMusical
-    iPhone --> AparelhoTelefonico
-    iPhone --> NavegadorInternet
+    IPhone --> ReprodutorMusical
+    IPhone --> AparelhoTelefonico
+    IPhone --> NavegadorInternet
 ```    
