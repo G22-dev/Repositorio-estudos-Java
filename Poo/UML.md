@@ -30,9 +30,11 @@ classDiagram
         +atualizarPagina()
     }
 
-    class IPhone{}
+    class iPhone{
 
-    IPhone --> ReprodutorMusical
-    IPhone --> AparelhoTelefonico
-    IPhone --> NavegadorInternet
+    }
+
+    iPhone --> ReprodutorMusical
+    iPhone --> AparelhoTelefonico
+    iPhone --> NavegadorInternet
 ```    
