@@ -11,23 +11,23 @@ O objetivo deste projeto é implementar as principais funções do iPhone, confo
 ```mermaid
 classDiagram
     class ReprodutorMusical {
-        + tocar()
-        + pausar()
-        + selecionarMusica(Stringmusica)
+        +tocar()
+        +pausar()
+        +selecionarMusica(Stringmusica)
     }
 
     class AparelhoTelefonico {
 
-        + ligar(Stringnumero)
-        + atender()
-        + iniciarCorreioVoz()
+        +ligar(Stringnumero)
+        +atender()
+        +iniciarCorreioVoz()
     }
 
     class NavegadorInternet {
 
-        + exibirPagina(Stringurl)
-        + adicionarNovaAba()
-        + atualizarPagina()
+        +exibirPagina(Stringurl)
+        +adicionarNovaAba()
+        +atualizarPagina()
     }
 
     class IPhone{}
