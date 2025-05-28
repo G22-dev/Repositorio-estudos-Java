@@ -1,6 +1,7 @@
 package Poo;
 
 public class AparelhoTelefonico {
+    
     private String numero;
     private String tocar;
     private String atender;
@@ -23,5 +24,6 @@ public class AparelhoTelefonico {
     public void setAtender(String atender) {
         this.atender = atender;
     }
+    
 }
 
