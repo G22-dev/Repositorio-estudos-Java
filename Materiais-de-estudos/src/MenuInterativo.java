@@ -1,5 +1,7 @@
-///Mostre um menu com 2 opções e use if ou switch///
-///para executar uma ação baseada na escolha do usuário.///
+// =====================================================
+///Mostre um menu com 2 opções e use if ou switch         
+///para executar uma ação baseada na escolha do usuário.
+
 
 import java.util.Scanner;
 
