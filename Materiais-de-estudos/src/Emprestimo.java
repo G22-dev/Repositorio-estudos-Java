@@ -17,10 +17,10 @@ public class Emprestimo {
         
         try {
             
-            System.err.println("Informar valor do empréstimo: ");
+            System.out.println("Informar valor do empréstimo: ");
             valorSolicitadoEmprestimo = scanner.nextDouble();
             
-            System.err.println("Informar valor da pacelar que deseja pagar o empréstimo(Litmitado até 10x): ");
+            System.out.println("Informar valor da pacelar que deseja pagar o empréstimo(Litmitado até 10x): ");
             quantidadeDeParcela = scanner.nextInt();
             
         } catch (Exception e) {
