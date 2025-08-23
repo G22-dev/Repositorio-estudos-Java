@@ -29,7 +29,7 @@ public class HorasNortunas {
             horasTrabadasMes = scanner.nextInt();
             
         } catch (Exception e) {
-            System.out.println("Por gentileza informar o valor do empréstimo correto. ");
+            System.out.println("Por gentileza informar o valor correto. ");
             scanner.close();
             return;
         }
